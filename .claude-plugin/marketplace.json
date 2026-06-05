@@ -1,0 +1,43 @@
+{
+  "name": "figma-console-mcp-skills",
+  "owner": {
+    "name": "Southleft",
+    "email": "tpitre@gmail.com"
+  },
+  "metadata": {
+    "description": "Figma Console MCP capabilities as skills for the native Figma MCP server.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "figma-console-mcp-skills",
+      "description": "The full collection: design tokens (export/import/setup), variable and library management, component-set analysis and docs, WCAG and design-system linting, accessibility audits, version history, changelog, blame, comments, annotations, FigJam, and Slides.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/figjam-create-content",
+        "./skills/figma-analyze-component-set",
+        "./skills/figma-annotations",
+        "./skills/figma-arrange-component-set",
+        "./skills/figma-audit-accessibility",
+        "./skills/figma-blame-node",
+        "./skills/figma-check-design-parity",
+        "./skills/figma-comments",
+        "./skills/figma-component-properties",
+        "./skills/figma-deep-component",
+        "./skills/figma-design-system-inventory",
+        "./skills/figma-export-tokens",
+        "./skills/figma-generate-changelog",
+        "./skills/figma-generate-component-doc",
+        "./skills/figma-import-tokens",
+        "./skills/figma-library-variables",
+        "./skills/figma-lint-design",
+        "./skills/figma-manage-variables",
+        "./skills/figma-scan-code-accessibility",
+        "./skills/figma-setup-design-tokens",
+        "./skills/figma-slides",
+        "./skills/figma-version-history"
+      ]
+    }
+  ]
+}
